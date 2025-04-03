@@ -22,7 +22,7 @@ title:
 name: Alistair Carson
 email: acarson2@ed.ac.uk
 description: Accompanying webpage for the DAFx25 submission.
-baseurl: /dafx25_antialiasing # the subpath of your site, e.g. /blog
+baseurl: /dafx25_antialiasing_neural # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  a-carson
 repository: "a-carson/dafx25_antialiasing_neural"
