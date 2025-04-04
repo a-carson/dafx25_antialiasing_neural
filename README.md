@@ -1,7 +1,6 @@
 # dafx25_antialiasing_neural
 
-
-
+! Minimum working version, more updates and documentation to follow !
 #### Requirements
 
 Create environment:
