@@ -1,0 +1,3 @@
+[submodule "Open_Amp/--force"]
+	path = Open_Amp/--force
+	url = https://github.com/sdatkinson/neural-amp-modeler
