@@ -49,11 +49,11 @@ def get_config(idx: int):
 
     # Proteus models --------------------
     if idx == 0:
-        conf['model_json'] = 'Proteus_Tone_Packs/AmpPack1/MesaMiniRec_HighGain_DirectOut.json'
+        conf['model_json'] = 'weights/Proteus_Tone_Packs/AmpPack1/MesaMiniRec_HighGain_DirectOut.json'
         conf['model_name'] = 'MesaMiniRec'
 
     if idx == 1:
-        conf['model_json'] = 'Proteus_Tone_Packs/PedalPack1/GoatPedal_HighGain.json'
+        conf['model_json'] = 'weights/Proteus_Tone_Packs/PedalPack1/GoatPedal_HighGain.json'
         conf['model_name'] = 'Goat'
 
     # NAM models -------------------------
@@ -66,20 +66,20 @@ def get_config(idx: int):
         conf['lr'] = 5e-4
 
         if idx == 2:
-            conf['model_json'] = 'NAM/Vox AC15/Vox AC15CH Overdriven Normal.nam'
+            conf['model_json'] = 'weights/NAM/Vox AC15/Vox AC15CH Overdriven Normal.nam'
             conf['model_name'] = 'VoxAC15_OD_Normal'
 
         if idx == 3:
-            conf['model_json'] = 'NAM/Marshall JCM 800 2203/JCM800 2203 - P5 B5 M5 T5 MV7 G10 - AZG - 700.nam'
+            conf['model_json'] = 'weights/NAM/Marshall JCM 800 2203/JCM800 2203 - P5 B5 M5 T5 MV7 G10 - AZG - 700.nam'
             conf['model_name'] = 'JCM800'
     # ---------------------------------------
 
     # Custom LSTM models--------------------------------
     if idx == 4:
-        conf['model_json'] = 'CustomModels/LSTM/broadcast_teacher.json'
+        conf['model_json'] = 'weights/pre-trained-by-us/broadcast_lstm_teacher.json'
         conf['model_name'] = 'BroadcastLSTM'
     if idx == 5:
-        conf['model_json'] = 'CustomModels/LSTM/gypsy_teacher.json'
+        conf['model_json'] = 'weights/pre-trained-by-us/jhm8_lstm_teacher.json'
         conf['model_name'] = 'GypsyLSTM'
 
     # Custom TCN models__________________________________
@@ -90,11 +90,11 @@ def get_config(idx: int):
         conf['lr'] = 5e-4
         if idx == 6:
             conf[
-                'model_json'] = 'CustomModels/TCN/broadcast_teacher.nam'
+                'model_json'] = 'weights/pre-trained-by-us/broadcast_tcn_teacher.nam'
             conf['model_name'] = 'BroadcastTCN'
         if idx == 7:
             conf[
-                'model_json'] = 'CustomModels/TCN/gypsy_teacher.nam'
+                'model_json'] = 'weights/pre-trained-by-us/jhm8_tcn_teacher.nam'
             conf['model_name'] = 'GypsyTCN'
     # ________________________________________________
 
