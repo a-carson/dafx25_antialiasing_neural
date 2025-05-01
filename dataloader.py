@@ -1,5 +1,8 @@
 from torch.utils.data import Dataset
 import torch
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'OpenAmp'))
 from Open_Amp.amp_model import AmpModel
 import numpy as np
 from spectral import cheb_fft

@@ -4,6 +4,9 @@ import scipy.signal.windows
 import torch
 import torchaudio
 from pytorch_lightning import LightningModule
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'OpenAmp'))
 from Open_Amp.amp_model import AmpModel
 from torch import optim
 from dataloader import SineToneDataset, SequenceDataset
