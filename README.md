@@ -1,15 +1,16 @@
 # dafx25_antialiasing_neural
 
-! Minimum working version, more updates and documentation to follow !
 #### Requirements
 
-Create environment:
+First, clone this repo and the initialise the OpenAmp submodule:
+```angular2html
+git clone --recurse-submodules git@github.com:a-carson/dafx25_antialiasing_neural.git 
+```
+
+Create conda environment:
 ```
 conda env create -t env.yaml
 ```
-
-
-
 
 (optional) Download Proteus Tone Packs collection of pre-trained models:
 
