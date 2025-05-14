@@ -4,11 +4,7 @@
 
 First, clone this repo and the initialise the OpenAmp submodule:
 ```angular2html
-git clone --recurse-submodules git@github.com:a-carson/dafx25_antialiasing_neural.git 
-cd dafx25_antialiasing
-cd OpenAmp
-git checkout nam
-cd ..
+git clone --recurse-submodules git@github.com:a-carson/dafx25_antialiasing_neural.git
 ```
 
 Create conda environment:
