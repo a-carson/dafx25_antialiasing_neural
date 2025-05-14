@@ -45,3 +45,15 @@ config_idx      Target Pedal/Amp        Model          Initial weights dir
 7               JHM8 Fuzz               TCN            weights/pre-trained-by-us/jhm8_tcn_teacher.nam
 ```
 
+#### Citation
+If using this work please use the following citation:
+```angular2html
+@inproceedings{Carson2025_antialiasing,
+    author = {Carson, A. and Wright, A. and Bilbao, S.},
+    title = {Anti-aliasing of neural distortion effects via model fine-tuning},
+    booktitle = {Proceedings of the 28th International Conference on Digital Audio Effects (DAFx25)},
+    year = {2025},
+    month = {Sept.},
+    address = {Ancona, Italy}
+}
+```
