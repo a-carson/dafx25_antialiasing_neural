@@ -369,7 +369,7 @@ if __name__ == '__main__':
         run = DummyLogger()
 
 
-    in_audio, audio_sample_rate = torchaudio.load('../../audio_datasets/dist_fx_192k/44k/val/input.wav')
+    in_audio, audio_sample_rate = torchaudio.load('audio_data/val_input.wav')
 
     if audio_sample_rate != conf['sample_rate']:
         from scipy.signal import resample

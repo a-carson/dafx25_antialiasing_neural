@@ -9,7 +9,8 @@ git clone --recurse-submodules git@github.com:a-carson/dafx25_antialiasing_neura
 
 Create conda environment:
 ```
-conda env create -t env.yaml
+conda env create -f env.yaml
+conda activate aa_neural
 ```
 
 (optional) Download Proteus Tone Packs collection of pre-trained models:
