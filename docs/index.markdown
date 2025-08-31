@@ -40,12 +40,17 @@ Alistair Carson, Alec Wright and Stefan Bilbao
 <i><a href="https://www.acoustics.ed.ac.uk/" target="_blank" rel="noopener noreferrer">Acoustics and Audio Group</a><br>University of Edinburgh</i> <br>Edinburgh, UK
 </p>
 <p style="font-size: 1.0em; text-align: center">
-Welcome to the accompanying web-page for our DAFx25 submission.</p>
+Accompanying audio examples for the DAFx25 paper.</p>
 <div style="text-align: center; align-items: center">
     <a href="https://github.com/a-carson/dafx25_antialiasing_neural" 
         class="btn btn--primary btn--small"
         target="_blank" rel="noopener noreferrer">
     </> Code
+    </a>
+    <a href="https://arxiv.org/abs/2505.11375" 
+        class="btn btn--primary btn--small"
+        target="_blank" rel="noopener noreferrer">
+    🗞️ Paper
     </a>
 </div>
 
@@ -56,8 +61,9 @@ Neural networks have become ubiquitous with guitar distortion effects modelling 
 
 <div class="image-container">
     <figure>
-        <img src="img/aa_training.drawio.png" alt="Image 1 description">
-        <figcaption> Proposed fine tuning method </figcaption>
+        <img src="img/aa_training.drawio.svg" alt="Fine tuning procedure">
+        <figcaption> Fine-tuning procedure for anti-aliasing of the Student model. The dashed line indicates the flow of gradients to the Student
+parameters. Spectral plots are included for illustration only – training operates in the time domain (except for the NMR calculation). </figcaption>
     </figure>
 </div>
 

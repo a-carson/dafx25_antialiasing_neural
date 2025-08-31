@@ -1,5 +1,25 @@
-# dafx25_antialiasing_neural
-Accompanying code and weights for the DAFx25 paper "Anti-aliasing of neural distortion effects via model fine-tuning" by Alistair Carson, Alec Wright and Stefan Bilbao.
+<h2 style="font-size: 1.5em" align="center">Anti-aliasing of neural distortion effects via  model fine tuning</h2>
+<p style="font-size: 1.0em" align="center">
+Alistair Carson, Alec Wright and Stefan Bilbao
+</p>
+<p style="font-size: 0.75em" align="center">
+<i><a href="https://www.acoustics.ed.ac.uk/" target="_blank" rel="noopener noreferrer">Acoustics and Audio Group</a><br>University of Edinburgh</i> <br>Edinburgh, UK
+</p>
+<p style="font-size: 1.0em; text-align: center">
+Accompanying code for the DAFx25 paper.</p>
+<div style="text-align: center">
+    <a href="https://a-carson.github.io/dafx25_antialiasing_neural/" 
+        class="btn btn--primary btn--small"
+        target="_blank" rel="noopener noreferrer">
+    🔊 Audio Examples
+    </a> &ensp; &ensp; &ensp; &ensp;  <a href="https://arxiv.org/abs/2505.11375" 
+        class="btn btn--primary btn--small"
+        target="_blank" rel="noopener noreferrer">
+      🗞️ Paper
+    </a>
+</div>
+
+
 #### Requirements
 
 First, clone this repo and the initialise the OpenAmp submodule:
